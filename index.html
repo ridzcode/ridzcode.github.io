@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="pic/avatar.jpeg">
   <link rel="stylesheet" href="style.css">
   <title>Ridzcode</title>
 </head>
@@ -18,12 +20,11 @@
       <div class="w3-bar w3-yellow w3-wide w3-padding">
 
         <a href="#aboutMe"
-          class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow"><b>Ridzcode</b></a>
-        <a href="#aboutMe" class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow">About Me</a>
-        <a href="#skill" class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow">Skill</a>
-        <a href="#portfolio"
-          class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow">Portfolio</a>
-        <a href="#contact" class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow">Contact</a>
+          class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow w3-animate-right"><b>Ridzcode</b></a>
+        <a href="#skill-portfolio"
+          class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow w3-animate-right">Skill/Portfolio</a>
+        <a href="#contact"
+          class="w3-text-black w3-bar-item w3-button w3-hover-black w3-hover-text-yellow w3-animate-right">Contact</a>
 
       </div>
 
@@ -31,24 +32,32 @@
 
   </nav>
 
-  <div class="w3-container w3-black">
+  <div class="w3-container w3-black" id="aboutMe">
 
     <!-- About -->
     <div class="w3-container about-1 w3-text-white w3-center">
 
       <div class="container">
-        <img class="w3-margin-top w3-border w3-border-yellow w3-circle pic-1" src="pic/avatar.jpeg" width="20%" alt="">
-        <h1 class="w3-text-yellow">Muhammad Ridzwan</h1>
-        <h4>Freelancer | Developer | Trader</h4>
+        <img class="w3-margin-top w3-border w3-border-yellow w3-circle w3-animate-zoom" src="pic/avatar.jpeg"
+          width="20%" alt="">
+        <h1 class="w3-text-yellow w3-animate-zoom">Muhammad Ridzwan</h1>
+        <h4><span class="w3-animate-left">Freelancer</span> | <span class="w3-animate-opacity">Developer</span> | <span
+            class="w3-animate-right">Trader</span></h4>
       </div>
 
-      <div class="w3-container w3-section">
+      <div class="w3-container w3-section about-2">
 
-        <h2 class="w3-text-yellow">About Me</h2>
-        <p class="w3-large">I’m a Malaysian and living in Perlis, Malaysia. I am a web and expert advisor developer. I'm
+        <h3 class="w3-text-yellow w3-animate-bottom">About Me</h3>
+        <p class="w3-large w3-animate-bottom">I’m a Malaysian and living in Perlis, Malaysia. I am a web and expert
+          advisor developer. I'm
           ordinary guy and love to code. So, if you’re my future clients, you can expect a nice guy working on your
           project.</p>
-        <button class="w3-btn w3-yellow w3-text-black">My Resume</button>
+
+        <div id="skill-portfolio"></div>
+
+        <button class="w3-btn w3-yellow w3-text-black w3-animate-bottom">My Resume</button>
+
+
 
       </div>
 
@@ -131,52 +140,56 @@
       <h2>My Portfolio</h2>
 
       <div class="w3-card w3-third w3-black">
-        <a href="https://www.mql5.com/en/market/product/60049" target="_blank" rel="noopener noreferrer"><img class="w3-image" src="pic/ea-single-moving-average-logo.png" alt=""></a>
+        <a href="https://www.mql5.com/en/market/product/60049" target="_blank" rel="noopener noreferrer"><img
+            class="w3-image" src="pic/ea-single-moving-average-logo.png" alt=""></a>
         <p>EA Single Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <a href="https://www.mql5.com/en/market/product/61523" target="_blank" rel="noopener noreferrer"><img class="w3-image" src="pic/CrocoBot.png" alt=""></a>
+        <a href="https://www.mql5.com/en/market/product/61523" target="_blank" rel="noopener noreferrer"><img
+            class="w3-image" src="pic/CrocoBot.png" alt=""></a>
         <p>CrocoBot EA</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-third w3-black">
-        <img class="w3-image" src="pic/r.jpg" alt="">
+        <img class="w3-image" src="pic/CrocoBot.png" alt="">
         <p>Moving Average</p>
       </div>
 
       <div class="w3-card w3-center w3-black">
-        <button class="w3-btn w3-yellow w3-text-black">See More</button>
+        <a href="https://www.mql5.com/en/users/ridzcode/seller#products" target="_blank" rel="noopener noreferrer">
+          <button class="w3-btn w3-yellow w3-text-black">See More</button>
+        </a>
       </div>
 
     </div>
@@ -185,9 +198,18 @@
   <!-- footer -->
   <div class="w3-container w3-yellow">
 
-    <footer class="w3-yellow">
+    <footer class="w3-yellow w3-center">
 
-      <p class="w3-center w3-text-black">Made by Ridzcode | 2021</p>
+      <p class="w3-text-black">Made by Ridzcode | 2021</p>
+
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-facebook"></a>
+
+      <br>
+
+      <a class="mail" href="mailto:ridzcodemy@gmail.com">ridzcodemy@gmail.com</a>
 
     </footer>
 
