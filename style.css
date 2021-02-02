@@ -1,11 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .about-1 {
-    margin-top: 50px;
+    margin-top   : 80px;
     margin-bottom: 15px;
 }
 
-.pic-1 {
-    border-radius: 50%;
-    display      : block;
-    margin-left  : auto;
-    margin-right : auto;
+.fa {
+    padding        : 5px;
+    font-size      : 25px;
+    width          : 30px;
+    text-align     : center;
+    text-decoration: none;
+}
+
+.mail {
+    padding        : 5px;
+    font-size      : 20px;
+    width          : 30px;
+    text-align     : center;
+    text-decoration: none;
 }
