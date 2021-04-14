@@ -213,10 +213,10 @@
 
     <footer class="w3-yellow w3-center">
 
-      <a href="#" class="fa fa-youtube"></a>
-      <a href="#" class="fa fa-instagram"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-facebook"></a>
+      <a href="https://www.youtube.com/c/ridzcode" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/ridzcode" class="fa fa-instagram"></a>
+<!--       <a href="#" class="fa fa-linkedin"></a> -->
+<!--       <a href="#" class="fa fa-facebook"></a> -->
 
       <br>
 
@@ -224,7 +224,7 @@
 
       <br>
 
-      <p class="w3-text-black">Made by Ridzcode | 2021</p>
+      <p class="w3-text-black">Made by Ridzcode | <span id="date"></span></p>
 
     </footer>
 
@@ -255,6 +255,12 @@
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
     });
+    
+    function myFunction() {
+  var dateNow = new Date();
+  var yearNow = dateNow.getFullYear();
+  document.getElementById("date").innerHTML = yearNow;
+}
   </script>
 </body>
 
